@@ -33,7 +33,7 @@ public class BubbleSort {
         int arr[] = {9, 2, 1, 0, 3, 60, 35, 2, 45, 320, 5};
         int arr2[] = {6,1,10,2,50,13,34,2,1,5,7,9};
 
-        System.out.println("Array 01 Before Improved Bubble Sort");
+        System.out.println("Array 01 Before the Bubble Sort:");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
@@ -41,12 +41,12 @@ public class BubbleSort {
 
         improvedBubbleSort(arr);
 
-        System.out.println("Array After Improved Bubble Sort");
+        System.out.println("Array After the Bubble Sort:");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
 
-        System.out.println("Array 02 Before Improved Bubble Sort");
+        System.out.println("Array 02 Before the Bubble Sort:");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr2[i] + " ");
         }
@@ -54,7 +54,7 @@ public class BubbleSort {
 
         improvedBubbleSort(arr2);
 
-        System.out.println("Array After Improved Bubble Sort");
+        System.out.println("Array After the Bubble Sort:");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr2[i] + " ");
         }
